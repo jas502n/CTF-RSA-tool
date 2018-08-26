@@ -1,6 +1,6 @@
 # CTF-RSA-tool
 
-### Install
+### Fast Install
 ```
 cd  install
 
