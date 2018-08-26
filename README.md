@@ -25,7 +25,7 @@ c is 168502910088858295634315070244377409556567637139736308082186369003227771936
 ```
 ![](./rsa.jpg)
 
-decode-Example:
+Decode-RSA-Example:
 
 
 ```
@@ -38,4 +38,4 @@ INFO: flag{d1fference_between_p_And_q_1s_t00_5mall}
 
 参考链接：
 https://github.com/3summer/CTF-RSA-tool
-
+https://www.cnblogs.com/pcat/p/5746821.html
