@@ -1,0 +1,2 @@
+mv src ~/
+mv static ~/
