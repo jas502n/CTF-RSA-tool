@@ -1,0 +1,3 @@
+[tabort_defalloc1] Check for good handling of abort in memory function.
+[MPFR] mpfr_default_allocate(): can't allocate memory (size=18446744073709551615)
+PASS tabort_defalloc1 (exit status: 0)

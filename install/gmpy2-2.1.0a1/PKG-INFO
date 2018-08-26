@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: gmpy2
+Version: 2.1.0a1
+Summary: gmpy2 interface to GMP/MPIR, MPFR, and MPC for Python 2.6+ and 3.4+
+Home-page: https://github.com/aleaxit/gmpy
+Author: Case Van Horsen
+Author-email: casevh@gmail.com
+License: LGPL-3.0+
+Description: UNKNOWN
+Keywords: gmp mpir mpfr mpc multiple-precision arbitrary-precision precision bignum
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

@@ -1,0 +1,59 @@
+Miscellaneous Functions
+-----------------------
+
+>>> import gmpy2
+>>> from gmpy2 import mpz
+>>> gmpy2.version()
+'2.1.0a1'
+>>> gmpy2.mp_limbsize() in (32,64)
+True
+>>> gmpy2.mp_version().split()[0] in ['GMP', 'MPIR']
+True
+>>> check_gmp = gmpy2.mp_version().startswith('GMP') and '5.0.0' <= gmpy2.mp_version().split()[1]
+>>> check_mpir = gmpy2.mp_version().startswith('MPIR') and '3.0.0' <= gmpy2.mp_version().split()[1]
+>>> check_gmp or check_mpir
+True
+>>> gmpy2.mpfr_version() and gmpy2.mpfr_version().startswith('MPFR')
+True
+>>> gmpy2.mpfr_version() and '3.1.0' <= gmpy2.mpfr_version().split()[1]
+True
+>>> gmpy2.mpc_version() and gmpy2.mpc_version().startswith('MPC')
+True
+>>> gmpy2.mpc_version() and '1.0' <= gmpy2.mpc_version().split()[1]
+True
+>>> gmpy2.license()
+'The GMPY2 source code is licensed under LGPL 3 or later. The supported versions of the GMP/MPIR, MPFR, and MPC libraries are also licensed under LGPL 3 or later.'
+
+>>> gmpy2.get_cache()
+(100, 128)
+>>> gmpy2.divm(5,7,13)
+mpz(10)
+>>> gmpy2.set_cache(0,16)
+>>> gmpy2.get_cache()
+(0, 16)
+>>> for i in range(1000): a=mpz(i)
+>>> del(a)
+>>> gmpy2.set_cache(100,128)
+>>> gmpy2.get_cache()
+(100, 128)
+>>> gmpy2.set_cache('a', 128)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: ** message detail varies **
+>>> gmpy2.set_cache(-10, 128)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: ** message detail varies **
+>>> gmpy2.set_cache(10000, 128)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: ** message detail varies **
+>>> gmpy2.set_cache(100, -1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: ** message detail varies **
+>>> gmpy2.set_cache(100, 100000)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: ** message detail varies **
+

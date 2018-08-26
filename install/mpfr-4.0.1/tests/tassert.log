@@ -1,0 +1,3 @@
+[tassert] Check for good handling of assertions.
+tassert.c:33: MPFR assertion failed: 0
+PASS tassert (exit status: 0)

@@ -1,0 +1,7 @@
+GMP: include 6.1.2, lib 6.1.2
+MPFR: include 4.0.1, lib 4.0.1
+MPC: include 1.1.0, lib 1.1.0
+C compiler: gcc
+GCC: yes
+GCC version: 5.4.0
+PASS tget_version (exit status: 0)

@@ -1,0 +1,3 @@
+[tabort_defalloc2] Check for good handling of abort in memory function.
+[MPFR] mpfr_default_reallocate(): can't reallocate memory (old_size=128 new_size=18446744073709551615)
+PASS tabort_defalloc2 (exit status: 0)
