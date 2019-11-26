@@ -16,6 +16,9 @@ cd libnum && python setup.py install
 
 ```
 
+`pip install pycrypto --ignore-installed pycrypto`
+
+
 ### Description:
 
 ```
